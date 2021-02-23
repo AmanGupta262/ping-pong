@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 99vh;
+
+}
+.rod1,
+.rod2{
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 30rem;
+    height: 3rem;
+    line-height: 3rem;
+    border: 2px black solid;
+    font-weight: bold;   
+    text-align: center;
+    border-radius: 2rem;
+    background-color: deepskyblue;
+}
+.ball{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 3rem;
+    width: 3rem;
+    background-color: tomato;
+    border-radius: 50%;
+    z-index: 2;
+}
